@@ -24,5 +24,5 @@ If you would like to contribute to the Nykaa Home Page Clone project, please fol
  5.Submit a pull request from your branch to the main repository.
 
 Credits
-The original Nykaa website was designed and developed by the Nykaa team. This clone was created by [YOGESH MAYEKAR], based on the design and content of the original website.
+The original Nykaa website was designed and developed by the Nykaa team. This clone was created by YOGESH MAYEKAR, based on the design and content of the original website.
 
