@@ -4,6 +4,7 @@
 *{
   margin:0%;
   padding:0%;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
@@ -639,7 +640,7 @@ border-radius: 8px;
 }
 .footer-ele1 ul li, .footer-ele2 ul li, .footer-ele3 ul li, .footer-ele4 ul li, .footer-ele5 ul li{
   list-style: none;
-  transition: color 1s;
+  transition: color 0.4s;
   transition-timing-function: ease-in-out;
 }
 .footer-ele1 ul li:hover, .footer-ele2 ul li:hover, .footer-ele3 ul li:hover, .footer-ele4 ul li:hover, .footer-ele5 ul li:hover{
@@ -689,4 +690,92 @@ border-radius: 8px;
 .helpline p{
   font-weight: 300;
   padding-top: 17px;
+}
+
+/* media query  */
+@media (min-width: 340px){
+  .f-nav{
+    display: none;
+  }
+  .sec-nav img{
+    width: 32px;
+    height: 16px;
+  }
+  .logo-img{
+    padding-left:20px;
+  }
+  .sec-nav{
+    height: 40px;
+    width:100%;
+    max-width: 100%;
+  }
+  .nykaa-bar{
+    display: flex;
+    gap:none;
+    margin: 0px 30px;
+    font-size: 10px;
+    font-weight: 400;
+  }
+  .baritem{
+    padding: 0px 0px;
+  }
+  .input{
+    display: flex;
+    position: relative;
+    left:4%;
+    gap:4px;
+    font-size: 10px;
+    }
+  .input input{
+    height: 22px;
+    width: 65%;
+    border-radius: 4px;
+  }
+  .input button{
+    width: 25%;
+    height: 22px;
+  }
+  #signin{
+    line-height: 10px;
+    border-radius: 4px;
+  }
+  .third-nav{
+    display: none;
+  }
+
+  .main-caresol-container{
+    padding-top:3px;
+    width: 100%;
+    height: 230px;
+  }
+
+  .main-img img{
+    height: 200px;
+    width: 600px;   
+  }
+
+  .main-head{
+    padding: 0px 0px 0px 35px;
+  }
+
+  .main-head h3{
+    font-size: 16px;
+    margin: 0px 0px 4px;
+  }
+
+  .slides{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .slide img{
+    margin-right: 15px;
+    border-radius: 8px;
+  }
+
+  .slide-controls{
+    padding: 25px;
+    height: 80px;
+  }
+
 }
