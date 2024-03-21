@@ -4,6 +4,7 @@ const slide = document.querySelector('.slides');
 let slides = document.querySelectorAll('.slide');
 const nextBtn= document.querySelector('.next-btn');
 const prevBtn= document.querySelector('.prev-btn');
+const dropDown = document.querySelector('show-dropdown');
 
 // abstracting the elements of caresol 1 
 let items= document.querySelectorAll('.item1');
@@ -248,3 +249,15 @@ const slideImage6=()=>{
 
 // calling the function of auto slide 
 startSlide();
+
+const handleOpenHamberge=()=>{
+ 
+  // dropDown.style.display='block'
+  console.log(dropDown)
+  dropDown.classList.add('drop-down-box')
+
+}
+
+const handleClose = ()=>{
+
+}

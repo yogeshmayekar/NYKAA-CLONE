@@ -41,12 +41,39 @@
                 <i class="fa-regular fa-circle-question"></i>
                 <a>Help</a>
               </div>
+              <div class="hambergemenu" onclick="handleOpenHamberge()">
+                <img src="./Images/hamburger-menu.png" alt="hemberge menue">
+              </div>
         </div>
         </nav>
       </section>
+      <div class="show-dropdown">
+        <div class="closeImg" onclick="handleClose()">
+          <img src="./Images/close.png" alt="">
+        </div>
+        <ul class="menu-list" id="menu-list">
+          <li class="menu-item active"><a href="#">Home</a></li>
+          <li class="menu-item"><a href="#">Categories</a></li>
+          <li class="menu-item"><a href="#">Brands</a></li>
+          <li class="menu-item"><a href="#">Luxe</a></li>
+          <li class="menu-item"><a href="#">Nykaa Fashion</a></li>
+          <li class="menu-item"><a href="#">Makeup</a></li>
+          <li class="menu-item"><a href="#">Appliances</a></li>
+          <li class="menu-item"><a href="#">Bath & Body</a></li>
+          <li class="menu-item"><a href="#">Natural</a></li>
+          <li class="menu-item"><a href="#">Mom & Baby</a></li>
+          <li class="menu-item"><a href="#">Health & Wellness</a></li>
+          <li class="menu-item"><a href="#">Men</a></li>
+          <li class="menu-item"><a href="#">Fragrance</a></li>
+          <li class="menu-item"><a href="#">Pop Ups</a></li>
+        </ul>
+      </div>
         <!-- second navigation bar  -->
       <section>
          <nav class="sec-nav" id="nv1">
+            <div class="hambergemenu2" onclick="handleOpenHamberge()">
+              <img src="./Images/hamburger-menu.png" alt="hemberge menue">
+            </div>
             <div class="logo-img">
               <img src="./Images/Nykaa_Logo.png" alt="">
             </div>
@@ -71,6 +98,7 @@
                 <input type="text" onclick="" placeholder="Search on Nykaa">
                 <button id="signin" onclick="">Sign in</button>
             </div>
+            
          </nav>
        </section>
        <!-- third nevigation bar -->
@@ -344,7 +372,8 @@
         <div class="spotlight-body">
         <img src="./Images/spot light b1.jpg" alt="">
         <img src="./Images/spot light b2.jpg" alt="">
-        <img src="./Images/spot light b3.jpg" alt="">
+        <!-- <img src="./Images/spot light b3.jpg" alt=""> -->
+        <img src="./Images/simple.jpg" alt="">
         <img src="./Images/suger1.jpg" alt="">
         <img src="./Images/swiss.jpg" alt="">  
         <img src="./Images/barun.jpg" alt="">
@@ -371,9 +400,9 @@
         <img src="./Images/nyks.jpeg" alt=""> 
         </div>
       </div>
-      <div class="spt2">
+      <!-- <div class="spt2">
         <img src="./Images/simple.jpg" alt="">
-      </div>
+      </div> -->
       </div>
     </section>
 
@@ -817,6 +846,8 @@
       <p>How may we help you</p>
     </div>
   </div>
+
+  
      <script src="https://kit.fontawesome.com/c7e1337a14.js" crossorigin="anonymous" defer></script>
     <!-- customize javaScript -->
     <script src="./nykaa.js"></script>
