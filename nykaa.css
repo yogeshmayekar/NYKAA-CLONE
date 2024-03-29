@@ -1972,6 +1972,9 @@ h4{
 }
 
 @media only screen and (min-width: 375px) and (max-width: 425px){
+  .slide-controls{
+    padding: 0;
+  }
 .sales{
   grid-template-columns: 180px 180px;
   max-width: 375px;
@@ -2391,6 +2394,9 @@ h4{
 }
 
 @media only screen and (min-width: 320px) and (max-width: 375px){
+.slide-controls{
+  padding: 0;
+}
 .sales{
   grid-template-columns: 160px 160px;
   max-width: 320px;
